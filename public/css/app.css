@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -87,7 +87,7 @@ h1>span {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 10px;
-    
+
 }
 
 .dropdown-content>a {
@@ -107,4 +107,59 @@ h1>span {
 
 .dropdown:hover .dropbtn {
     color: #3d3d3d;
+}
+
+.hero-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 5vh 8vw;
+}
+
+.handwritten {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3.5rem;
+    width: 20vw;
+}
+
+.watch-vid-btn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    cursor: pointer;
+}
+
+.watch-vid-btn:hover{
+    color: #d53535;
+    transition: 0.3s;
+}
+
+.watch-icon {
+    font-size: 2rem;
+    color: #d53535;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 1vw;
+}
+
+.floating-img {
+    width: 30vw;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
