@@ -9,6 +9,11 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 3vh 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
 }
 
 .underline {
@@ -118,6 +123,7 @@ h1>span {
     align-items: center;
     background-color: #f2f2f2;
     padding: 5vh 8vw;
+    margin: 12vh 0 0 0;
 }
 
 .handwritten {
@@ -193,6 +199,7 @@ h1>span {
     height: 100vh;
     opacity: 0;
     pointer-events: none;
+    z-index: 1001;
 }
 
 .modal-container.show {
@@ -236,10 +243,11 @@ h1>span {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    height: 100%;
 }
 
 .second-sec-image img {
-    width: 30vw;
+    width: 36vw;
 }
 
 .second-sec-text {
@@ -247,6 +255,7 @@ h1>span {
     flex-direction: column;
     width: 18vw;
     gap: 3vh;
+    height: 100%;
 }
 
 .second-sec-text div p span {
@@ -328,8 +337,8 @@ footer {
     gap: 1vh;
 }
 
-.footer-list i{
-    color:#d53535;
+.footer-list i {
+    color: #d53535;
     font-size: 1.4rem;
 }
 
@@ -339,22 +348,22 @@ footer {
     gap: 1.5vh;
 }
 
-.Copyright{
+.Copyright {
     color: white;
 }
 
-.follow{
+.follow {
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
 }
 
-.follow-icons{
+.follow-icons {
     display: flex;
     gap: 3vh;
 }
 
-.follow-icons i{
+.follow-icons i {
     font-size: 1.2rem;
     border: solid #8f8f92 1px;
     padding: 1vh;
@@ -362,13 +371,13 @@ footer {
     cursor: pointer;
 }
 
-.follow-icons i:hover{
+.follow-icons i:hover {
     color: #d53535;
     border-color: #d53535;
     transition: 0.3s;
 }
 
-.Copyright{
+.Copyright {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,10 +386,101 @@ footer {
     gap: 1vh;
 }
 
-.Yummy{
+.Yummy {
     font-weight: 900;
 }
 
-.vmine{
+.vmine {
     color: #d53535;
+}
+
+.booking-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    margin: 3vh 0 3vh 0;
+}
+
+.Booking-Form {
+    display: flex;
+    gap: 1vw;
+        background-color: #f8f8f8;
+
+}
+
+.Booking-Form img {
+    width: 20vw;
+}
+
+.bookingTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookingTitle h1,
+span {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    width: 40vw;
+    margin: 2vh;
+}
+
+textarea {
+    height: 100%;
+}
+
+.personalInfos {
+    display: flex;
+    gap: 1rem;
+}
+
+.personalInfos input {
+    height: 3vh;
+    flex: 1;
+}
+
+.BookingTime input {
+    flex: 1;
+    height: 3vh;
+}
+
+.BookingTime {
+    display: flex;
+    gap: 1rem;
+}
+
+input::placeholder{
+    padding-left: 1vh;
+}
+
+textarea::placeholder{
+    padding: 1vh;
+}
+
+.submitButton{
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton button{
+    width: 10vw;
+    height: 2vw;
+    border: none;
+    background-color: #d53535;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submitButton button:hover{
+    background-color: #d34848;
 }
