@@ -135,7 +135,7 @@ h1>span {
     cursor: pointer;
 }
 
-.watch-vid-btn:hover{
+.watch-vid-btn:hover {
     color: #d53535;
     transition: 0.3s;
 }
@@ -155,13 +155,13 @@ h1>span {
     animation: float 3s ease-in-out infinite;
 }
 
-.hero-txt{
+.hero-txt {
     display: flex;
     flex-direction: column;
     gap: 3vh;
 }
 
-.hero-txt p{
+.hero-txt p {
     font-size: larger;
     color: grey;
     width: 20vw;
@@ -171,15 +171,17 @@ h1>span {
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
+
     100% {
         transform: translateY(0);
     }
 }
 
-.modal-container{
+.modal-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,16 +195,16 @@ h1>span {
     pointer-events: none;
 }
 
-.modal-container.show{
+.modal-container.show {
     opacity: 1;
     pointer-events: auto;
 }
 
-.modal iframe{
+.modal iframe {
     max-width: 100%;
 }
 
-.modal button{
+.modal button {
     position: fixed;
     top: 0;
     right: 0;
@@ -212,4 +214,94 @@ h1>span {
     padding: 2vh;
     color: grey;
     cursor: pointer;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0;
+    gap: 3vh;
+}
+
+.second-sec-imageText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+
+.second-sec-image {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.second-sec-image img {
+    width: 30vw;
+}
+
+.second-sec-text {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    gap: 3vh;
+}
+
+.second-sec-text div p span {
+    color: #d53535;
+}
+
+.AboutText {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookNumber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #3d3d3d solid 3px;
+    padding: 1vh 0;
+}
+
+.bookNumber h1 {
+    color: #d53535;
+}
+
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.img-wrapper img {
+    width: 35vh;
+    display: block;
+}
+
+.img-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background: #00000099;
+    color: white;
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-btn:hover {
+    background: #000000cc;
 }
