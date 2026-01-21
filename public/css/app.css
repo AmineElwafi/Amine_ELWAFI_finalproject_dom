@@ -305,3 +305,82 @@ h1>span {
 .img-btn:hover {
     background: #000000cc;
 }
+
+footer {
+    background-color: #1f1f24;
+    padding: 3vw 0;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    color: white;
+    width: fit-content;
+    border-bottom: solid #555555 1px;
+    margin: 0 auto;
+    padding: 0 0 3vh 0;
+}
+
+
+.footer-list {
+    display: flex;
+    gap: 1vh;
+}
+
+.footer-list i{
+    color:#d53535;
+    font-size: 1.4rem;
+}
+
+.footer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.Copyright{
+    color: white;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.follow-icons{
+    display: flex;
+    gap: 3vh;
+}
+
+.follow-icons i{
+    font-size: 1.2rem;
+    border: solid #8f8f92 1px;
+    padding: 1vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.follow-icons i:hover{
+    color: #d53535;
+    border-color: #d53535;
+    transition: 0.3s;
+}
+
+.Copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0 0 0;
+    gap: 1vh;
+}
+
+.Yummy{
+    font-weight: 900;
+}
+
+.vmine{
+    color: #d53535;
+}
