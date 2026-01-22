@@ -205,18 +205,18 @@
         </div>
         <div class="Booking-Form">
             <img src="./public/images/reservation.jpg" alt="">
-            <form action="">
+            <form id="res-id" action="">
                 <div class="personalInfos">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <input type="tel" placeholder="Your Phone">
+                    <input name="name" type="text" placeholder="Your Name">
+                    <input name="email" type="email" placeholder="Your Email">
+                    <input name="phone" type="tel" placeholder="Your Phone">
                 </div>
                 <div class="BookingTime">
-                    <input type="date">
-                    <input type="time">
-                    <input type="number" placeholder="of people">
+                    <input name="date" type="date">
+                    <input name="time" type="time">
+                    <input type="people" placeholder="of people">
                 </div>
-                <textarea placeholder="Message" name="" id=""></textarea>
+                <textarea name="message" placeholder="Message" name="" id=""></textarea>
                 <div class="submitButton">
                     <button type="submit">Book a table</button>
                 </div>

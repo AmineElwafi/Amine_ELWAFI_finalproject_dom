@@ -14,3 +14,13 @@ open1.addEventListener('click', () => {
 close.addEventListener('click', () => {
     modalContainer.classList.remove('show');
 })
+
+const form = document.getElementById("res-id");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const data = Object.fromEntries(new FormData(form));
+
+  console.log(data);
+});
