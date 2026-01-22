@@ -420,8 +420,11 @@ footer {
     align-items: center;
 }
 
-.bookingTitle h1,
-span {
+.bookingTitle > h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.bookingTitle > span {
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -515,7 +518,7 @@ body {
 
 .menu-section h2 span {
     color: #e63946;
-    font-family: "Pacifico", cursive;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .tabs {
@@ -549,15 +552,15 @@ body {
     margin-bottom: 50px;
 }
 
-.menu-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px 40px;
+.menu-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
 }
 
 .menu-item img {
-    width: 180px;
-    height: 180px;
+    width: 20vw;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 15px;
@@ -577,4 +580,8 @@ body {
 .menu-item span {
     color: #e63946;
     font-weight: 600;
+}
+
+.handwrittenText{
+    font-family: 'Shadows Into Light', cursive;
 }
